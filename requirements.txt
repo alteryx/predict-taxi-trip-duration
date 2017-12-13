@@ -1,0 +1,6 @@
+featuretools>=0.1.7
+jupyter==1.0.0
+pandas==0.20.1
+sklearn
+xgboost==0.6
+numpy>=1.11.0

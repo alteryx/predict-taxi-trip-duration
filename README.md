@@ -45,14 +45,14 @@ Using Notebook 4 will require additional datasets <a href=https://www.kaggle.com
 1. We can see that using Featuretools allows us to acheive better results. Featuretools is used in notebook 3 and notebook 4, both of which score in a higher percentile than the baseline score.
 
 <center>
-<img src="img/rank.png" width="800" height="600" />
+<img padding='0px' border="0" src="img/rank.png" width="90%" height="70%" />
 </center>
 
 
 2. Comparing the Kaggle Scores for the notebooks also shows the better results acheived. The leaderboard score for the most advanced notebook is very close to the best score.
 
 <center>
-<img src="img/bar_graph_scores.png" width="500" height="300" />
+<img padding='0px' border="0" src="img/bar_graph_scores.png" width="100%" height="80%" />
 </center>
 
 ## FAQ

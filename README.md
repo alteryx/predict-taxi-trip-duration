@@ -36,8 +36,6 @@ Using Notebook 4 will require additional datasets <a href=https://www.kaggle.com
 1. fastest\_routes\_test.csv
 2. fastest\_routes\_train\_part_1.csv
 3. fastest\_routes\_train\_part_2.csv
-3. train_parties.csv
-4. test_parties.csv
 
 
 ## Results

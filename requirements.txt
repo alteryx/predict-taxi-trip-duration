@@ -1,4 +1,4 @@
-featuretools>=0.1.7
+featuretools>=0.1.16
 jupyter==1.0.0
 pandas==0.20.1
 sklearn

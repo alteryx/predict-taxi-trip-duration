@@ -83,7 +83,7 @@ XGBoost, which stands for e<b>X</b>treme <b>G</b>radient <b>B</b>oosting, is the
 <a href="https://xgboost.readthedocs.io/en/latest/">here</a>.
 
 <p>
-    <img src="https://www.featurelabs.com/img/logo.png" alt="Featuretools" />
+    <img src="http://www.featurelabs.com/wp-content/uploads/2017/12/logo.png" alt="Featuretools" />
 </p>
 
 

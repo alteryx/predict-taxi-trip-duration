@@ -1,6 +1,5 @@
 featuretools>=0.1.16
-jupyter==1.0.0
-pandas==0.20.1
-sklearn
+pandas>=0.20.1
+scikit-learn>=0.19.0
 xgboost>=0.6
 numpy>=1.11.0

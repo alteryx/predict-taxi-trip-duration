@@ -4,7 +4,6 @@
     <img width=50% src="https://www.featuretools.com/wp-content/uploads/2017/12/FeatureLabs-Logo-Tangerine-800.png" alt="Featuretools" />
 </a>
 
-
 [Featuretools](https://www.featuretools.com/) is a framework to perform automated feature engineering. It excels at transforming transactional and relational datasets into feature matrices for machine learning. This demo uses Featuretools to develop a prediction model for the New York City Taxi Trip Duration on [Kaggle](https://www.kaggle.com/c/nyc-taxi-trip-duration/overview).
 
 Normally, solving Kaggle problems is a very iterative process. Competitors look at the dataset, determine what features they can extract, and score it with their model. They use that accuracy to make more changes to their feature extraction, and again score their model. <b>Featuretools simplifies to process to let you extract numerous features in one iteration. </b>
@@ -16,9 +15,6 @@ We can see that using Featuretools allows us to acheive better results. Featuret
 <center>
 <img padding='0px' border="0" src="img/rank.png" width="90%" height="70%" />
 </center>
-
-
-
 
 ## Running the tutorial
 
@@ -43,17 +39,16 @@ We can see that using Featuretools allows us to acheive better results. Featuret
 
 4. Download the data
 
-    You can download the data from [Kaggle](https://www.kaggle.com/c/nyc-taxi-trip-duration/data). After downloading, save the CSV to a directory called `data` in the root of this repository.
-
-    Using Notebook 4 will require the following additional datasets, found <a href=https://www.kaggle.com/oscarleo/new-york-city-taxi-with-osrm> here</a> and <a href=https://www.kaggle.com/somesnm/new-york-parties-eda/output>here</a>.</p>
-
-    - fastest\_routes\_test.csv
-    - fastest\_routes\_train\_part_1.csv
-    - fastest\_routes\_train\_part_2.csv
+    You can download the data from [Kaggle](https://www.kaggle.com/c/nyc-taxi-trip-duration/data). After downloading, save the CSV files to a directory called `data` in the root of this repository.
 
 5. Run the [Tutorial](Tutorial.ipynb) notebook
 
+  ```
+  jupyter notebook
+  ```
+
 ## Results
+
 1. Comparing the Kaggle Scores for the notebooks also shows the better results acheived. The leaderboard score for the most advanced notebook is very close to the best score.
 
 <center>
@@ -89,13 +84,12 @@ We don't want any features to be generated on the `test_data` column. The column
 XGBoost, which stands for e<b>X</b>treme <b>G</b>radient <b>B</b>oosting, is the model used. It is a very popular machine learning algorithm in Kaggle competitions for structured or tabular data. More infromation can be found
 <a href="https://xgboost.readthedocs.io/en/latest/">here</a>.
 
-
 ## Feature Labs
 <a href="https://www.featurelabs.com/">
     <img src="http://www.featurelabs.com/wp-content/uploads/2017/12/logo.png" alt="Featuretools" />
 </a>
 
-Featuretools is an open source project created by [Feature Labs](https://www.featurelabs.com/). To see the other open source projects we're working on visit Feature Labs [Open Source](https://www.featurelabs.com/open). If building impactful data science pipelines is important to you or your business, please [get in touch](https://www.featurelabs.com/contact.html).
+Featuretools is an open source project created by [Feature Labs](https://www.featurelabs.com/). To see the other open source projects we're working on visit Feature Labs [Open Source](https://www.featurelabs.com/open). If building impactful data science pipelines is important to you or your business, please [get in touch](https://www.featurelabs.com/contact/).
 
 ### Contact
 

@@ -26,7 +26,16 @@ We can see that using Featuretools allows us to acheive better results. Featuret
 
 2. Install the requirements
 
+
+    #### Mac OS
     ```
+    brew install gcc@5 --without-multilib
+    pip install -r requirements.txt
+    ```
+    
+    #### Linux
+    ```
+    sudo apt-get install build-essential
     pip install -r requirements.txt
     ```
     

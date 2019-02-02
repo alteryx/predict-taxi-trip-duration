@@ -39,7 +39,7 @@ We can see that using Featuretools allows us to acheive better results. Featuret
     pip install -r requirements.txt
     ```
     
-    *Also, You will need to install **graphviz** for this demo. Please install graphviz according to the instructions in the [Featuretools Documentation](https://docs.featuretools.com/getting_started/install.html)*
+    *You will also need to install **graphviz** for this demo. Please install graphviz according to the instructions in the [Featuretools Documentation](https://docs.featuretools.com/getting_started/install.html)*
     
 4. Download the data
 

@@ -26,17 +26,21 @@ We can see that using Featuretools allows us to acheive better results. Featuret
 
 2. Install the requirements
 
+
     #### Mac OS
     ```
     brew install gcc@5 --without-multilib
     pip install -r requirements.txt
     ```
+    
     #### Linux
     ```
     sudo apt-get install build-essential
     pip install -r requirements.txt
     ```
-
+    
+    *You will also need to install **graphviz** for this demo. Please install graphviz according to the instructions in the [Featuretools Documentation](https://docs.featuretools.com/getting_started/install.html)*
+    
 4. Download the data
 
     You can download the data from [Kaggle](https://www.kaggle.com/c/nyc-taxi-trip-duration/data). After downloading, save the CSV files to a directory called `data` in the root of this repository.

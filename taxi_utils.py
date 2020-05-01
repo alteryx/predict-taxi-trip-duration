@@ -53,7 +53,7 @@ def train_xgb(X_train, labels):
                       evals=evals, early_stopping_rounds=60, maximize=False,
                       verbose_eval=10)
 
-    print('Modeling RMSLE %.5f' % model.best_score)
+    print('Modeling RMSE %.5f' % model.best_score)
     return model
 
 

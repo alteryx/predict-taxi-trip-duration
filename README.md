@@ -29,7 +29,7 @@ We can see that using Featuretools allows us to acheive better results. Featuret
 
     #### Mac OS
     ```
-    brew install gcc@5 --without-multilib
+    brew install libomp
     pip install -r requirements.txt
     ```
     
